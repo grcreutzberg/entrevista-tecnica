@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.ts"
+    "start": "nodemon --inspect src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,7 @@
   "dependencies": {
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "mongoose": "^6.2.2",
+    "mongoose": "^6.2.7",
     "yup": "^0.32.11"
   }
 }
